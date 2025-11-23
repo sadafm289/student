@@ -8,7 +8,6 @@ permalink: /tools/journey
 
 ## What I Have Learned
 
-1. I made a github repository to successfully set me up for CSSE. I made a Tools and Equipment Issue shortly after to log my progress from day one.
+I made a github repository to successfully set me up for CSSE. I made a Tools and Equipment Issue shortly after to log my progress from day one.
 
-![My Github Day 1 Analytics]
-({{site.baseurl}}/images/GithubAnalyticsDay1.png)
+![My GitHub Analytics from day 1]({{site.baseurl}}/images/GithubAnalyticsDay1.png)
