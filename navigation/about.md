@@ -106,13 +106,11 @@ Here is what I did so far
 Everything for me, as for many others, revolves around family and friends.
 - There are 5 people in my family including me. 2 of them are my sisters and the other 2 are my parents.
 - Some of my greatest memories were created with my family.
-- The gallery of pics contains some fun memories made.
+- The picture below is my favorite memory of when I went to Zion National Park as a little kid.
 
 <comment>
-Gallery of Pics, scroll to the right for more ...
+My favorite memory:
 </comment>
 <div class="image-gallery">
-  <img src="{{site.baseurl}}/images/about/missionary.jpg" alt="Image 1">
-  <img src="{{site.baseurl}}/images/about/john_tamara.jpg" alt="Image 2">
-  <img src=">
+  <img src="{{site.baseurl}}/images/about/Vacation1.jpg" alt="Image 1">
 </div>
