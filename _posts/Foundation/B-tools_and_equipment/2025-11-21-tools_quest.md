@@ -17,3 +17,7 @@ Along with Github, I also used Slack to see class announcements and OpenCodingSo
 My first ever commit was my own website. At first, my website had an error because I made a mistake. I gave my GitHub repository a wrong name and this caused my website to look wrong. This was how my website looked when I first made it.
 
 ![How my website looked day 1]({{site.baseurl}}/images/WebsiteDay1.png)
+
+This was the first error I had so far in this class. I then renamed my repository and everything fixed! Now my website is functioning correctly. This error taught me to be careful and specific in what I do.
+
+Overall, so far in CSSE, I have made my own GitHub repository, created my own website, and used Slack and OpenCodingSociety to communicate and progress successfully!
