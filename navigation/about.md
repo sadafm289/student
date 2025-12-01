@@ -98,18 +98,31 @@ Flags are made using Wikipedia images
 
 Here is what I did so far
 
-- 🏫 Born in 2011, San Diego California.
-- 🏫 Middle and High School in San Diego, California. Class of 2029, Del Norte High School.
+- Born in 2011, San Diego, California.
+- 🏫 Elementary School from 2017-2022
+- 🏫 Middle School from 2022-2025
+- 🏫 Del Norte High School, Current 9th grader.
 
-### Culture, Family, and Fun
+### My Favorite Things
+
+Some of my favorite things include:
+
+- Favorite Food: pizza
+- Favorite Hobby: biking
+- Favorite Dessert: ice cream
+- Favorite Sport: soccer
+- Favorite Color: purple
+
+### Family and Fun
 
 Everything for me, as for many others, revolves around family and friends.
 - There are 5 people in my family including me. 2 of them are my sisters and the other 2 are my parents.
+- For fun, I like to travel, hang out with family and friends, and go hiking.
 - Some of my greatest memories were created with my family.
 - The picture below is my favorite memory of when I went to Zion National Park as a little kid.
 
 <comment>
-My favorite memory:
+My Favorite Memory:
 </comment>
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/about/Vacation1.jpg" alt="Image 1">
