@@ -101,17 +101,18 @@ Here is what I did so far
 - Born in 2011, San Diego, California.
 - 🏫 Elementary School from 2017-2022
 - 🏫 Middle School from 2022-2025
-- 🏫 Del Norte High School, Current 9th grader.
+- 🏫 Del Norte High School, Class of 2029.
 
 ### My Favorite Things
 
 Some of my favorite things include:
 
-- Favorite Food: pizza
-- Favorite Hobby: biking
-- Favorite Dessert: ice cream
-- Favorite Sport: soccer
-- Favorite Color: purple
+- Favorite Food: Pizza
+- Favorite Hobby: Biking
+- Favorite Dessert: Ice Cream
+- Favorite Sport: Soccer
+- Favorite Color: Purple
+- Favorite Animal: Koala
 
 ### Family and Fun
 
