@@ -18,6 +18,8 @@ My first ever commit was my own website. At first, my website had an error becau
 
 ![How my website looked day 1]({{site.baseurl}}/images/WebsiteDay1.png)
 
-This was the first error I had so far in this class. I then renamed my repository and everything fixed! Now my website is functioning correctly. This error taught me to be careful and specific in what I do.
+This was the first error I had so far in CSSE. I then renamed my repository and everything fixed! Now my website is functioning correctly. This error taught me to be careful and specific in what I do.
+
+To create this blog, I used VSCode which I also set up on my chromebook. I also used it to create my about me page and it was another part of the tools setup.
 
 Overall, so far in CSSE, I have made my own GitHub repository, created my own website, and used Slack and OpenCodingSociety to communicate and progress successfully!
