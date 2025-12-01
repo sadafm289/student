@@ -30,23 +30,11 @@ Hi! My name is [Sadaf]
 
 ### Class Progress
 
-> Here is my progress through coding, click to see these online
+So far, my favorite thing I've done is make my own website. I created an about me page and a blog. It was created through VSCode and my Github repository. 
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/snake" style="text-decoration: none;">
-        <div style="background-color: #00FF00; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Snake Game
-        </div>
-    </a>
-    <a href="{{site.baseurl}}/turtle" style="text-decoration: none;">
-        <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Turtle
-        </div>
-    </a>
-</div>
+### Where To Go
 
-<br>
-
+To see my about page, you can press the about icon on the top. To see my blog about tools setup, go to blogs and then Github Pages blogs! The about page is all about me and has some interesting details about me. The blog is abour my journey for setting up tools in CSSE.
 
 <!-- Contact Section -->
 ### Get in Touch
@@ -54,8 +42,3 @@ Hi! My name is [Sadaf]
 > Feel free to reach out if you'd like to collaborate or learn more about our work.
 
 <p style="color: #2A7DB1;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #2A7DB1; text-decoration: underline;">Socials</a></p>
-
-
-### Where To Go
-
-To see my about page, you can press the about icon on the top. To see my blog about tools setup, go to blogs and then Github Pages blogs! The about page is all about me and has some interesting details about me. The blog is abour my journey for setting up tools in CSSE.
