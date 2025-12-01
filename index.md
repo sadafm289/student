@@ -47,9 +47,15 @@ Hi! My name is [Sadaf]
 
 <br>
 
+
 <!-- Contact Section -->
 ### Get in Touch
 
 > Feel free to reach out if you'd like to collaborate or learn more about our work.
 
 <p style="color: #2A7DB1;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #2A7DB1; text-decoration: underline;">Socials</a></p>
+
+
+### Where To Go
+
+To see my about page, you can press the about icon on the top. To see my blog about tools setup, go to blogs and then Github Pages blogs! The about page is all about me and has some interesting details about me. The blog is abour my journey for setting up tools in CSSE.
