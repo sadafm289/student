@@ -2,7 +2,7 @@
 toc: True
 layout: post
 title: Github Pages Blog
-description: A key to learning in this class is understanding how to make a Github Pages project. This guide will set up and run the project. Ultimate
+description: This blog is about how I set up my tools for CSSE.
 permalink: /tools/journey
 ---
 
