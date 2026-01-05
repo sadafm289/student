@@ -105,16 +105,70 @@ Here is what I did so far
 
 ### My Favorite Things
 
-Some of my favorite things include:
+// Clear the output
+outputElement.innerHTML = '';
 
-- Favorite Food: Pizza
-- Favorite Hobby: Biking
-- Favorite Dessert: Ice Cream
-- Favorite Sport: Soccer
-- Favorite Color: Purple
-- Favorite Animal: Koala
+// Data array
+const living_in_the_world = [
+  {flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/640px-Eq_it-na_pizza-margherita_sep2005_sml.jpg", greeting: "Pizza", description: "Favorite Food"},
+  {flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Football_Pallo_valmiina-cropped.jpg/640px-Football_Pallo_valmiina-cropped.jpg", greeting: "Soccer", description: "Favorite Sport"},
+  {flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Formosa_lily%2C_Nagai_Park%2C_Osaka.jpg/640px-Formosa_lily%2C_Nagai_Park%2C_Osaka.jpg", greeting: "Lily", description: "Favorite Flower"},
+  {flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Koala_in_Zoo_Duisburg.jpg/640px-Koala_in_Zoo_Duisburg.jpg", greeting: "Koala", description: "Favorite Animal"}
+];
 
-### Family and Fun
+// Create a div container with id
+const container = document.createElement('div');
+container.id = 'grid_container';
+
+// Style the container 
+container.style.border = '2px solid';
+container.style.padding = '10px';
+
+// Grid specific styles
+container.style.display = 'grid';
+container.style.gridTemplateColumns = 'repeat(auto-fill, minmax(150px, 1fr))';
+container.style.gap = '10px';
+
+// Loop through data and create grid items
+for (const location of living_in_the_world) {
+  // Create grid item
+  const gridItem = document.createElement('div');
+  gridItem.style.textAlign = 'center';
+  
+  // Create a flag image
+  const img = document.createElement('img');
+  img.src = location.flag;
+  img.alt = location.description + ' Flag';
+  img.style.width = '100%';
+  img.style.height = '100px';
+  img.style.objectFit = 'contain';
+  
+  // Create a description
+  const description = document.createElement('p');
+  description.textContent = location.description;
+  description.style.margin = '5px 0';
+  description.style.fontWeight = 'bold';
+  
+  // Create a greeting
+  const greeting = document.createElement('p');
+  greeting.textContent = location.greeting;
+  greeting.style.margin = '5px 0';
+  greeting.style.fontStyle = 'italic';
+  greeting.style.opacity = '0.7';
+  
+  // Add all elements to grid item
+  gridItem.appendChild(img);
+  gridItem.appendChild(description);
+  gridItem.appendChild(greeting);
+  
+  // Add grid item to container
+  container.appendChild(gridItem);
+}
+
+// Add containter to output 
+outputElement.appendChild(container);
+  
+### Family and Funs
 
 Everything for me, as for many others, revolves around family and friends.
 - There are 5 people in my family including me. 2 of them are my sisters and the other 2 are my parents.
