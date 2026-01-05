@@ -105,32 +105,37 @@ Here is what I did so far
 
 ### My Favorite Things
 
+<div id="grid_container2"></div>
+
+<script>
+    var outputElement = document.getElementById("grid_container2");
+
 // Clear the output
 outputElement.innerHTML = '';
 
 // Data array
-const living_in_the_world = [
+const favorites = [
   {flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/640px-Eq_it-na_pizza-margherita_sep2005_sml.jpg", greeting: "Pizza", description: "Favorite Food"},
   {flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Football_Pallo_valmiina-cropped.jpg/640px-Football_Pallo_valmiina-cropped.jpg", greeting: "Soccer", description: "Favorite Sport"},
   {flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Formosa_lily%2C_Nagai_Park%2C_Osaka.jpg/640px-Formosa_lily%2C_Nagai_Park%2C_Osaka.jpg", greeting: "Lily", description: "Favorite Flower"},
   {flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Koala_in_Zoo_Duisburg.jpg/640px-Koala_in_Zoo_Duisburg.jpg", greeting: "Koala", description: "Favorite Animal"}
 ];
 
-// Create a div container with id
-const container = document.createElement('div');
-container.id = 'grid_container';
+// Create a div container2 with id
+const container2 = document.createElement('div');
+container2.id = 'grid_container2';
 
-// Style the container 
-container.style.border = '2px solid';
-container.style.padding = '10px';
+// Style the container2 
+container2.style.border = '2px solid';
+container2.style.padding = '10px';
 
 // Grid specific styles
-container.style.display = 'grid';
-container.style.gridTemplateColumns = 'repeat(auto-fill, minmax(150px, 1fr))';
-container.style.gap = '10px';
+container2.style.display = 'grid';
+container2.style.gridTemplateColumns = 'repeat(auto-fill, minmax(150px, 1fr))';
+container2.style.gap = '10px';
 
 // Loop through data and create grid items
-for (const location of living_in_the_world) {
+for (const location of favorites) {
   // Create grid item
   const gridItem = document.createElement('div');
   gridItem.style.textAlign = 'center';
@@ -161,12 +166,14 @@ for (const location of living_in_the_world) {
   gridItem.appendChild(description);
   gridItem.appendChild(greeting);
   
-  // Add grid item to container
-  container.appendChild(gridItem);
+  // Add grid item to container2
+  container2.appendChild(gridItem);
 }
 
 // Add containter to output 
-outputElement.appendChild(container);
+outputElement.appendChild(container2);
+
+</script>
   
 ### Family and Funs
 
